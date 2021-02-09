@@ -18,7 +18,7 @@ As a result, all of our Customers will be able to use SCA ready connections to t
  
 You will be able to use the updated SCA ready connections without a package upgrade.
 
-We have already added SCA support for following PSPs
+We have already added SCA support for following PSPs and shall be available from within the package
 + Stripe
 + Sagepay
 + Braintree (A Paypal company)
