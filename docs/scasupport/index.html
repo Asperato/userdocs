@@ -16,19 +16,18 @@
 <li>Braintree (A Paypal company)</li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="general-notes-for-establishing-sca-connection-in-asperato-package"></a><a href="#general-notes-for-establishing-sca-connection-in-asperato-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Notes for Establishing SCA Connection in Asperato Package</h2>
-<p>Below is general guidance to create and use a SCA enable connection for a PSP</p>
+<p>Below is a general guidance to create and use a SCA enable connection for a PSP</p>
 <ul>
 <li>For SCA support, you need to create a new connection from Asperato Setup Page.</li>
-<li>For PSD2 supported PSPs you will find a new PSP in the list with SCA appended to it.</li>
-<li>See image</li>
+<li>For PSD2 supported PSPs you will find a new PSP in the list with SCA appended to it. See below image
+<img src="/userdocs/img/SCAConnections.png" alt="Sca appended to SCA Supported PSPs"></li>
 <li>Some cards require authentication everytime a transaction is made. For such cards future payments will fail.</li>
 </ul>
 <h2><a class="anchor" aria-hidden="true" id="setting-up-stripe-sca-connection"></a><a href="#setting-up-stripe-sca-connection" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Setting Up Stripe SCA Connection</h2>
 <p>To create a Stripe SCA connection in Asperato package, follow below steps</p>
 <ol>
 <li>Go to Asperato Setup page</li>
-<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select</li>
-</ol>
+<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select
 <ul>
 <li>Currency as &quot;British Pound&quot;</li>
 <li>Mode as &quot;ECOM&quot;</li>
@@ -37,8 +36,7 @@
 <li>Description - any of your choice</li>
 <li>Secret API Key - Use same API key as you were using earlier for non Sca connection</li>
 <li>Publishable Key - You can get it from the stripe dashboard (via &quot;Developers&quot; and &quot;API keys&quot; on left hand menu). Refer help page: <a href="https://dashboard.stripe.com/test/apikeys">https://dashboard.stripe.com/test/apikeys</a></li>
-</ul>
-<ol start="3">
+</ul></li>
 <li>Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
 Refer <a href="https://stripe.com/docs/testing">here</a> for Stripe PSD2 testing guidance.</li>
 </ol>
@@ -46,16 +44,14 @@ Refer <a href="https://stripe.com/docs/testing">here</a> for Stripe PSD2 testing
 <p>Create a new PSP connection from Asperato Setup with “Sagepay SCA”</p>
 <ol>
 <li>Go to Asperato Setup page</li>
-<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select</li>
-</ol>
+<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select
 <ul>
 <li>Currency as &quot;British Pound&quot;</li>
 <li>Mode as &quot;ECOM&quot;</li>
 <li>PSP as “Sagepay SCA”</li>
 <li>Description - Of your choice</li>
 <li>Vendor name - Use same name as you have used for Sagepay (without SCA) connection.</li>
-</ul>
-<ol start="3">
+</ul></li>
 <li>Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
 Refer <a href="https://www.opayo.co.uk/support/12/36/test-card-details-for-your-test-transactions">here</a> for Sagepay PSD2 testing guidance</li>
 </ol>
@@ -63,8 +59,7 @@ Refer <a href="https://www.opayo.co.uk/support/12/36/test-card-details-for-your-
 <p>Create a new PSP connection from Asperato Setup with “Sagepay SCA”</p>
 <ol>
 <li>Go to Asperato Setup page</li>
-<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select</li>
-</ol>
+<li>Click on &quot;New PSP Connection&quot;. In the popup screen, select
 <ul>
 <li>Currency as &quot;British Pound&quot;</li>
 <li>Mode as &quot;ECOM&quot;</li>
@@ -74,8 +69,7 @@ Refer <a href="https://www.opayo.co.uk/support/12/36/test-card-details-for-your-
 <li>Public Key - same as used for non-sca connection</li>
 <li>Private Key - same as used for non-sca connection</li>
 <li>Click on &quot;Save PSP Connection&quot; button</li>
-</ul>
-<ol start="3">
+</ul></li>
 <li>Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
 Refer <a href="https://developers.braintreepayments.com/guides/3d-secure/testing-go-live/php">here</a> for Braintree PSD2 testing guidance</li>
 </ol>
