@@ -24,7 +24,7 @@ We have already added SCA support for following PSPs
 + Braintree (A Paypal company)
 
 # General Notes for Establishing SCA Connection in Asperato Package
-Below is general guidance to create and use a SCA ebable connection for a PSP
+Below is general guidance to create and use a SCA enable connection for a PSP
 + For SCA support, you need to create a new connection from Asperato Setup Page.
 + For PSD2 supported PSPs you will find a new PSP in the list with SCA appended to it.
 + See image 
