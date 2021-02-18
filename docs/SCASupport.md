@@ -9,14 +9,9 @@ The Financial Conduct Authority (FCA) have once more extended merchants‘ deadl
 Please see latest guidance from FCA
 https://www.fca.org.uk/firms/strong-customer-authentication
  
-In summary:
-+ Merchants (you, our customer) have to be compliant from September 2021
-+ Because Asperato as a Third Party Processor we have to be compliant from 14th March 2021
-+ UK Customers will not see declines as a result of SCA prior to the 14th March 2021
+All of our Customers will be able to use SCA ready connections to their preferred Payment Service Provider via our Salesforce package no later than the 14th March 2021.
  
-As a result, all of our Customers will be able to use SCA ready connections to their preferred Payment Service Provider via our Salesforce package no later than the 14th March 2021.
- 
-You will be able to use the updated SCA ready connections without a package upgrade.
+You will be able to use the SCA ready connections without a package upgrade. All you need to do is to create a new connection from Asperato Setup Page via Salesforce.
 
 We have already added SCA support for following PSPs and shall be available from within the package
 + Stripe
