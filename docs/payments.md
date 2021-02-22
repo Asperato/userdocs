@@ -81,6 +81,13 @@ Payment statuses are provided as follows:
 <th>Collected from Customer</th>
 <td>The payment has been collected from the customer and has been confirmed.</td>
 </tr><tr>
+</tr><tr>
+<th>Retry in progress
+ *available from 2.16</th>
+<td>The payment collection attempt has failed and will be retried in some days
+ 
+ Note that this fetaure works with GoCardless Success+ feature only. Read here to know more about the required configurations</td>
+</tr><tr>
 <th>Failed</th>
 <td>The payment failed to collect. There are a variety of reasons why this could happen, in this case there should be a reason documented in the “Status description” field. Note that if a payment fails, and that payment is attached to an authorisation, the authorisation status will be unaffected. The failure of a payment does not necessarily imply a failure of the underlying authorisation (for example, it could simply be that there are insufficient funds in the account at this time.)</td>
 </tr>
