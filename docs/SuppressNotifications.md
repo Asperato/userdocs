@@ -11,28 +11,28 @@ To be able to handle customer notifications yourself, you will need to be grante
 
 # Configuration in Asperato Package
 After getting the required approval you do following configurations in the AsperatoOne package
-... Login to Salesforce org where the AsperatoOne package is installed.
-... Go to Setup
-... Write “Custom Settings” in the quick find box
-... Click on “Custom Settings”
-... Go to Asperato One settings
++ Login to Salesforce org where the AsperatoOne package is installed.
++ Go to Setup
++ Write “Custom Settings” in the quick find box
++ Click on “Custom Settings”
++ Go to Asperato One settings
 
-... Click on Manage
-... Set the value of “Suppress Notification for Payments” as true
++ Click on Manage
++ Set the value of “Suppress Notification for Payments” as true
 
 # Suppressing Notification for Payments
 ## Single Payments
 ### Creating Payments from Authorisation Record
-... Go to Authorisation record, against which to take payment
-... Click on Process Payment using Authorisation
-... Check the “” checkbox as true. Refer below diagram
++ Go to Authorisation record, against which to take payment
++ Click on Process Payment using Authorisation
++ Check the “” checkbox as true. Refer below diagram
 
-... Click on Process Payment.
++ Click on Process Payment.
 
 ### Creating Payments from Payment tab
-... Go to Payments tab -> Click on New
-... Enter the required details
-... In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
++ Go to Payments tab -> Click on New
++ Enter the required details
++ In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
 
 ### Payments Created by Payment Schedule
 After getting necessary approvals, check section “Approvals”, if the value of the custom setting field is set to true., as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
