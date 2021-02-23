@@ -7,28 +7,32 @@
 <h1><a class="anchor" aria-hidden="true" id="configuration-in-asperato-package"></a><a href="#configuration-in-asperato-package" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Configuration in Asperato Package</h1>
 <p>After getting the required approval you do following configurations in the AsperatoOne package</p>
 <ul>
-<li><p>Login to Salesforce org where the AsperatoOne package is installed.</p></li>
-<li><p>Go to Setup</p></li>
-<li><p>Write “Custom Settings” in the quick find box</p></li>
-<li><p>Click on “Custom Settings”</p></li>
-<li><p>Go to Asperato One settings</p></li>
-<li><p>Click on Manage</p></li>
-<li><p>Set the value of “Suppress Notification for Payments” as true</p></li>
+<li>Login to Salesforce org where the AsperatoOne package is installed.</li>
+<li>Go to Setup</li>
+<li>Write “Custom Settings” in the quick find box</li>
+<li>Click on “Custom Settings”</li>
+<li>Go to Asperato One settings
+<img src="../website/static/img/supress_payment_notification/AsperatoOneSettings.png" alt="Aspertao One Settings - Custom Settings"></li>
+<li>Click on Manage</li>
+<li>Set the value of “Suppress Notification for Payments” as true
+<img src="../website/static/img/supress_payment_notification/CustomSettings.png" alt="Suppress Notification field - Custom Settings"></li>
 </ul>
 <h1><a class="anchor" aria-hidden="true" id="suppressing-notification-for-payments"></a><a href="#suppressing-notification-for-payments" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Suppressing Notification for Payments</h1>
 <h2><a class="anchor" aria-hidden="true" id="single-payments"></a><a href="#single-payments" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Single Payments</h2>
 <h3><a class="anchor" aria-hidden="true" id="creating-payments-from-authorisation-record"></a><a href="#creating-payments-from-authorisation-record" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating Payments from Authorisation Record</h3>
 <ul>
-<li><p>Go to Authorisation record, against which to take payment</p></li>
-<li><p>Click on Process Payment using Authorisation</p></li>
-<li><p>Check the “” checkbox as true. Refer below diagram</p></li>
-<li><p>Click on Process Payment.</p></li>
+<li>Go to Authorisation record, against which to take payment</li>
+<li>Click on Process Payment using Authorisation</li>
+<li>Check the “checkbox&quot; as true. Refer below diagram
+<img src="../website/static/img/supress_payment_notification/paymentscreen.PNG" alt="Checkbox on Process Payment screen"></li>
+<li>Click on Process Payment.</li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="creating-payments-from-payment-tab"></a><a href="#creating-payments-from-payment-tab" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Creating Payments from Payment tab</h3>
 <ul>
 <li>Go to Payments tab -&gt; Click on New</li>
 <li>Enter the required details</li>
-<li>In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.</li>
+<li>In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
+<img src="../website/static/img/supress_payment_notification/paymentpagelayoout.png" alt="Payment Page Layout"></li>
 </ul>
 <h3><a class="anchor" aria-hidden="true" id="payments-created-by-payment-schedule"></a><a href="#payments-created-by-payment-schedule" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Payments Created by Payment Schedule</h3>
 <p>After getting necessary approvals, check section “Approvals”, if the value of the custom setting field is set to true., as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
