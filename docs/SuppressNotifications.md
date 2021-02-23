@@ -36,6 +36,7 @@ After getting the required approval you do following configurations in the Asper
 + In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
 ![Payment Page Layout](../website/static/img/supress_payment_notification/paymentpagelayoout.png)
 
+## Recurring Payments
 ### Payments Created by Payment Schedule
 After getting necessary approvals, check section “Approvals”, if the value of the custom setting field is set to true., as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
 So, for the GoCardless notifications for payments created by payment schedule (As mentioned in above point) notifications would be suppressed.
