@@ -24,8 +24,8 @@ You can use them however you wish. We find the most common use case is with diff
 
 Another use case could be when a merchant has a requirement to settle funds into separate bank accounts each with the same PSP and currency for regulatory reasons, for example paying household rent and deposit payments into separate bank accounts. 
 
-## Is it possible to customise paypage with different templates for different merchant groups?
-We recommend to use the default paypage template. But if there is a requirement to customise the paypages based on merchant group, then it is possible to make some basic changes. Please write to support@asperato.com with your requirement.
+## Is it possible to customize paypage with different templates for different merchant groups?
+We recommend to use the default paypage template. But if there is a requirement to customize the paypages based on merchant group, then it is possible to make some basic changes. Please write to support@asperato.com with your requirement.
 
 ## Do I have to use merchant groups?
 No. If, for any given currency and payment route, you only need a single PSP connected, then you can carry on using the package exactly as before, with no changes. The new merchant group functionality is backwards compatible. If you don't need to use it, your existing PSP connections, payments and authorisations will all be created and processed as before against a predefined "Default" merchant group.
