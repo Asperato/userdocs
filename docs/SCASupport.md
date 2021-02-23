@@ -29,7 +29,7 @@ Below is a general guidance to create and use a SCA enable connection for a PSP
 To create a Stripe SCA connection in Asperato package, follow below steps
 1. Go to Asperato Setup page
 2. Click on "New PSP Connection". In the popup screen, select
-   +  Currency as "British Pound"
+   + Currency as "British Pound"
    + Mode as "ECOM"
    + PSP as "Stripe SCA"
    + Select, Use custom Gateway detail
