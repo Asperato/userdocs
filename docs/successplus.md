@@ -1,7 +1,7 @@
 ---
 id: successplus
 title: GoCardless Success+ Support to Automatic Retry Failed Payment
-sidebar_label: Suppress Payment Notifications of GoCardless
+sidebar_label: Success+ Support
 ---
 
 # Overview
