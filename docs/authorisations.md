@@ -53,6 +53,9 @@ The following statuses are available on the authorisation object:
 <th>In force</th>
 <td>The authorisation has been confirmed, is valid, and can be used to authorise a payment.</td>
 </tr><tr>
+<th>Submitted for Cancellation</th>
+<td>The mandate/authorisation has been submitted for cancellation at the request of the payor, or at your request.</td>
+</tr><tr>
 <th>Cancelled</th>
 <td>The authorisation has been cancelled at the request of the payor, or at your request.</td>
 </tr><tr>
@@ -94,6 +97,12 @@ To supply a link for processing externally, look for the “Ecommerce URL” fie
  
 This will contain a URL pointing to a webpage for the user to enter their details to set up the authorisation, and can be distributed by any means necessary (email, IM, etc.) When the user has completed the form, the authorisation object will be populated in Salesforce the same way as before.
 
+## Viewing GoCardless Authorisation/Mandate (2.16+)
+To view the mandate click on "View Mandate" quick action button on the Authorisation record.
+![View mandate button](/userdocs/img/auth/viewmandate.png "View mandate button")
+
+Clicking on the button will open the mandate (as saved with GoCardless) in a new tab of the browser.
+
 ## Updating a GoCardless Authorisation/Mandate
 
 Updating a GoCardless Authorisation/Mandate can be done internally to the Salesforce Org (for example, if an agent in a call centre was taking details over the phone to set up an authorisation) or externally (if a link to setup the authorisation is required outside of Salesforce.)
@@ -110,9 +119,16 @@ To supply a link for processing externally, look for the “eCommerce URL” fie
 
 This will contain a URL pointing to a webpage for the user to enter their updated details to ‘update’ the authorisation. When the user has submitted the form, the Asperato authorisation record will be populated with the updated details. As above, this will create a new mandate in GoCardless rather than update the details on the existing one, all new payments against the updated Asperato authorisation record will use the newly created GoCardless mandate. 
 
-## Cancelling a GoCardless Authorisation/Mandate
+## Cancelling a GoCardless Authorisation/Mandate (2.16+)
+To cancel mandate, go to Authorisation that needs to be cancelled, Select Quick Action “Cancel Mandate”
+![Cancel mandate button](/userdocs/img/auth/cancelmandate.png "Cancel mandate button")
+The mandate will be cancelled at both SF and GC side and the status of authorisation record would be updated to "Cancelled".
 
-The Asperato application does not support cancelling direct debits, this has to be done directly on the GoCardless by logging in to your GoCardless Dashboard.
+Note that, if the same Authorisation record, which was cancelled earlier, is processed from the SF then
++ in SF the Authorisation Record will be updated from Cancelled to other state
++ In GC, a new Customer record would be created
+
+Clicking on the button will open the mandate (as saved with GoCardless) in a new tab of the browser.
 
 ## Custom references (2.13+)
 
@@ -123,3 +139,10 @@ However, note that not all PSPs or PSP account types support custom references, 
 ## Importing Authorisations to Salesforce
  
 If you require existing authorisations from your PSP to be populated in Salesforce, then please contact support@asperato.com with details of your requirements.
+
+## Notes for users upgrading to 2.16 package
+
+If you upgrading to package 2.16 then \ask your admin to update the authorisation page layout to include
++ "View Mandate" quick action button
++ "Cancel Mandate" quick action button
++ Authorisation status "Submitted for Cancellation"
