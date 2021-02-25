@@ -82,8 +82,7 @@ Payment statuses are provided as follows:
 <td>The payment has been collected from the customer and has been confirmed.</td>
 </tr><tr>
 </tr><tr>
-<th>Retry in progress
- *available from 2.16</th>
+<th>Retry in progress (2.16+)</th>
 <td>The payment collection attempt has failed and will be retried in some days
  
  Note that this fetaure works with GoCardless Success+ feature only. Read here to know more about the required configurations</td>
