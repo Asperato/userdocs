@@ -20,8 +20,8 @@ After required configurations are done, then asperato package will inform the go
 It works as following
 + A payment is created in Asperato
 + Aspearto informs Gocardless about
-++ New payment being created
-++ Availability of permission to Retry the Payment if it fails
+  + New payment being created
+  + Availability of permission to Retry the Payment if it fails
 + Payment status changes to Submitted for Collection
 + Payment collection fails
 + Status of payment changes to "Retry in Progress"
