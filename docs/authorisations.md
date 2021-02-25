@@ -100,7 +100,7 @@ This will contain a URL pointing to a webpage for the user to enter their detail
 ## Viewing GoCardless Authorisation/Mandate (2.16+)
 To view the mandate click on "View Mandate" quick action button on the Authorisation record.
 
-![View mandate button](/userdocs/img/auth/viewmandate.png "View mandate button")
+![View mandate button](/userdocs/img/auth/viewmandate.PNG "View mandate button")
 
 Clicking on the button will open the mandate (as saved with GoCardless) in a new tab of the browser.
 
@@ -123,11 +123,11 @@ This will contain a URL pointing to a webpage for the user to enter their update
 ## Cancelling a GoCardless Authorisation/Mandate (2.16+)
 To cancel mandate, go to Authorisation that needs to be cancelled, Select Quick Action “Cancel Mandate”
 
-![Cancel mandate button](/userdocs/img/auth/cancelmandate.png "Cancel mandate button")
+![Cancel mandate button](/userdocs/img/auth/cancelmandate.PNG "Cancel mandate button")
 
 You will see a confirmation screen. Upon confirming the mandate will be cancelled at both SF and GC side and the status of authorisation record would be updated to "Cancelled".
 
-![Cancel mandate confirmation screen](/userdocs/img/auth/cancelmandateconfirmationscreen.png "Confirmation Screen")
+![Cancel mandate confirmation screen](/userdocs/img/auth/cancelmandateconfirmationscreen.PNG "Confirmation Screen")
 
 Note that, if the same Authorisation record, which was cancelled earlier, is processed from the SF then
 + in SF the Authorisation Record will be updated from Cancelled to other state
