@@ -20,8 +20,6 @@ After getting the required approval you do following configurations in the Asper
 + Click on Manage
 + Set the value of “Suppress Notification for Payments” as true
 ![Suppress Notification field - Custom Settings](/userdocs/img/supress_payment_notification/CustomSettings.png "Custom Setting Value")
-![Cancel mandate button](/userdocs/img/auth/cancelmandate.png "Cancel mandate button")
-
 
 # Suppressing Notification for Payments
 ## Single Payments
