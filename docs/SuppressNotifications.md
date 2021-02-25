@@ -16,10 +16,12 @@ After getting the required approval you do following configurations in the Asper
 + Write “Custom Settings” in the quick find box
 + Click on “Custom Settings”
 + Go to Asperato One settings
-![Aspertao One Settings - Custom Settings](../website/static/img/supress_payment_notification/AsperatoOneSettings.png)
+![Aspertao One Settings - Custom Settings](/userdocs/img/supress_payment_notification/AsperatoOneSettings.png "Custom Settings")
 + Click on Manage
 + Set the value of “Suppress Notification for Payments” as true
-![Suppress Notification field - Custom Settings](../website/static/img/supress_payment_notification/CustomSettings.png)
+![Suppress Notification field - Custom Settings](/userdocs/img/supress_payment_notification/CustomSettings.png "Custom Setting Value")
+![Cancel mandate button](/userdocs/img/auth/cancelmandate.png "Cancel mandate button")
+
 
 # Suppressing Notification for Payments
 ## Single Payments
@@ -27,14 +29,14 @@ After getting the required approval you do following configurations in the Asper
 + Go to Authorisation record, against which to take payment
 + Click on Process Payment using Authorisation
 + Check the “checkbox" as true. Refer below diagram
-![Checkbox on Process Payment screen](../website/static/img/supress_payment_notification/paymentscreen.PNG)
+![Checkbox on Process Payment screen](/userdocs/img/supress_payment_notification/paymentscreen.PNG "Process Payment Screen")
 + Click on Process Payment.
 
 ### Creating Payments from Payment tab
 + Go to Payments tab -> Click on New
 + Enter the required details
 + In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
-![Payment Page Layout](../website/static/img/supress_payment_notification/paymentpagelayoout.png)
+![Payment Page Layout](/userdocs/img/supress_payment_notification/paymentpagelayoout.png, "Payment Page Layout")
 
 ## Recurring Payments
 ### Payments Created by Payment Schedule
