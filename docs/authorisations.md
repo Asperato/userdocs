@@ -123,7 +123,7 @@ This will contain a URL pointing to a webpage for the user to enter their update
 ## Cancelling a GoCardless Authorisation/Mandate
 For users running on Asperato **package 2.15 and below**, this has to be done directly on the GoCardless by logging in to your GoCardless Dashboard.
 
-For users using Asperato package 2.16+, to cancel mandate
+For users using Asperato **package 2.16+**, to cancel mandate
 + Go to Authorisation that needs to be cancelled
 + Select Quick Action “Cancel Mandate”
 
