@@ -126,7 +126,7 @@ To cancel mandate, go to Authorisation that needs to be cancelled, Select Quick 
 ![Cancel mandate button](/userdocs/img/auth/cancelmandate.png "Cancel mandate button")
 
 You will see a confirmation screen. Upon confirming rte mandate will be cancelled at both SF and GC side and the status of authorisation record would be updated to "Cancelled".
-![Cancel mandate button](/userdocs/img/auth/cancelmandateconfirmationscreen.png "Cancel mandate button")
+![Cancel mandate confirmation screen](/userdocs/img/auth/cancelmandateconfirmationscreen.png "Confirmation Screen")
 
 Note that, if the same Authorisation record, which was cancelled earlier, is processed from the SF then
 + in SF the Authorisation Record will be updated from Cancelled to other state
