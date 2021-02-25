@@ -147,7 +147,7 @@ If you require existing authorisations from your PSP to be populated in Salesfor
 
 ## Notes for existing users upgrading to 2.16 package
 
-If you upgrading to package 2.16 then \ask your admin to update the authorisation page layout to include
+If you upgrading to package 2.16 then ask your salesforce admin to update the authorisation <a href="https://help.salesforce.com/articleView?id=sf.customize_layout.htm&type=5"> page layout</a> to include
 + "View Mandate" quick action button
 + "Cancel Mandate" quick action button
 + Authorisation status "Submitted for Cancellation"
