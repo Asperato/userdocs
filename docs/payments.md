@@ -212,6 +212,9 @@ The sanitised responses we currently support are listed here:
 </tr>
 </table>
 
+## GoCardless Payments Reconcilliation (2.16+)
+Whenever GoCardless will make a payout against the payments which were collected from customers, the value of "Payout Reference" field will be updated with the GoCardless "Payout Number". You can use this field to create reports for Payouts grouped by Payments for reconcilliation.
+
 ## Custom references (2.13+)
 
 Some PSPs allow you to specify a custom reference attached to an payment. You can specify this by using the "Custom reference" field available on the payment object.
@@ -228,3 +231,10 @@ These URLs can be set by changing the value of fields on the payment/authorisati
 - Redirection to endpoints will apply when payment/authorisations are processed via the Ecommerce URL only, they do not apply when payments/authorisations are processed from within the Asperato application.
 - It is possible to automatically advance straight to the endpoints without displaying the standard Asperato screens. Please contact the Asperato team to request this.
 - Redirection to endpoints will not take effect when the Asperato paypage is iframed. Postmessages should be used with iframes.
+
+## Notes for existing users upgrading to 2.16 package
+
+If you upgrading to package 2.16 then \ask your admin to update the authorisation page layout to include
++ Payment status "Retry in progress"
++ Field "payout reference"
++ Checkbox "suppress notification by psp"
