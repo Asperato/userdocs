@@ -233,7 +233,7 @@ These URLs can be set by changing the value of fields on the payment/authorisati
 
 ## Notes for existing users upgrading to 2.16 package
 
-If you upgrading to package 2.16 then \ask your admin to update the authorisation page layout to include
+If you upgrading to package 2.16 then ask your salesforce admin to update the authorisation <a href="https://help.salesforce.com/articleView?id=sf.customize_layout.htm&type=5"> page layout </a> to include
 + Payment status "Retry in progress"
 + Field "payout reference"
 + Checkbox "suppress notification by psp"
