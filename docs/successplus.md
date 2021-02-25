@@ -5,7 +5,7 @@ sidebar_label: Success+ Support
 ---
 
 # Overview
-GoCardless Success+ is a feature to intelligently retry a failed payment. You can read more about it at https://gocardless.com/gc/success-plus/
+GoCardless Success+ is a feature to intelligently retry a failed payment. You can read more about it <a href="https://gocardless.com/gc/success-plus/">here</a>.
 
 #Using GoCardless Success+
 
