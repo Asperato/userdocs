@@ -143,7 +143,7 @@ However, note that not all PSPs or PSP account types support custom references, 
  
 If you require existing authorisations from your PSP to be populated in Salesforce, then please contact support@asperato.com with details of your requirements.
 
-## Notes for users upgrading to 2.16 package
+## Notes for existing users upgrading to 2.16 package
 
 If you upgrading to package 2.16 then \ask your admin to update the authorisation page layout to include
 + "View Mandate" quick action button
