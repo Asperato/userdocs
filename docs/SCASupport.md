@@ -34,7 +34,7 @@ To create a Stripe SCA connection in Asperato package, follow below steps
    + PSP as "Stripe SCA"
    + Select, Use custom Gateway detail
    + Description - any of your choice
-   + Secret API Key - Use same API key as you were using earlier for non Sca connection
+   + Secret API Key - You can get it from the stripe dashboard (via "Developers" and "API keys" on left hand menu). Refer help page: https://dashboard.stripe.com/test/apikeys
    + Publishable Key - You can get it from the stripe dashboard (via "Developers" and "API keys" on left hand menu). Refer help page: https://dashboard.stripe.com/test/apikeys 
 3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
 Refer [here](https://stripe.com/docs/testing) for Stripe PSD2 testing guidance.
