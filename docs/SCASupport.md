@@ -57,7 +57,7 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
 2. Click on "New PSP Connection". In the popup screen, select
    + Currency as "British Pound"
    + Mode as "ECOM"
-   + PSP as “Sagepay SCA”
+   + PSP as “Braintree SCA”
    + Description - Of your choice
    + Merchant Id - same as used for non-sca connection
    + Public Key - same as used for non-sca connection
