@@ -5,9 +5,10 @@ sidebar_label: Success+ Support
 ---
 
 # Overview
-GoCardless Success+ is a feature to intelligently retry a failed payment. You can read more about it <a href="https://gocardless.com/gc/success-plus/">here</a>.
+GoCardless Success+ is a feature to intelligently retry a failed payment. Once can read more about it <a href="https://gocardless.com/gc/success-plus/">here</a>.
 
 # Using GoCardless Success+
+Asperato has extended its support for GC Success+ feature. In Asperato package when the settings for GoCardless are turned on, GoCardless retires the failed payment using its Success+ pack. Listed below are the steps to enable and use the GoCardless Success+ feature while still using Asperato package. 
 
 ## Enable Success+ in GoCardless Account
 You need to enable Success+ separately for each currency from GoCardless Dashborord. Contact GoCardless Support to get understanding on setup and testing of this feature.
