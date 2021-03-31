@@ -10,7 +10,7 @@ To be able to handle customer notifications yourself, you will need to be grante
 2. Write to Asperato Support at support@asperato.com to enable the suppression of GoCardless Notifications for Payments being created.We are required by GoCardless to see evidence of your handling of notifications. Details will be provided.
 
 # Configuration in Asperato Package
-After getting the required approval you do following configurations in the AsperatoOne package
+After getting the required approval you will need to make the following changes in the AsperatoOne package
 + Login to Salesforce org where the AsperatoOne package is installed.
 + Go to Setup
 + Write “Custom Settings” in the quick find box
@@ -20,6 +20,7 @@ After getting the required approval you do following configurations in the Asper
 + Click on Manage
 + Set the value of “Suppress Notification for Payments” as true
 ![Suppress Notification field - Custom Settings](/userdocs/img/supress_payment_notification/CustomSettings.png "Custom Setting Value")
++ Save the changes
 
 # Suppressing Notification for Payments
 ## Single Payments
@@ -34,7 +35,7 @@ After getting the required approval you do following configurations in the Asper
 + Go to Payments tab -> Click on New
 + Enter the required details
 + In the “Payment Reference Information” section, set the value of “Suppress Notification by PSP” to True if you don't want the GoCardless notifications to be sent to customers.
-![Payment Page Layout](/userdocs/img/supress_payment_notification/paymentpagelayoout.png, "Payment Page Layout")
+![Payment Page Layout](/userdocs/img/supress_payment_notification/paymentpagelayoout.png "Payment Page Layout")
 
 ## Recurring Payments
 ### Payments Created by Payment Schedule
