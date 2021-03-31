@@ -39,5 +39,5 @@ After getting the required approval you will need to make the following changes 
 
 ## Recurring Payments
 ### Payments Created by Payment Schedule
-After getting necessary approvals, check section “Approvals”, if the value of the custom setting field is set to true., as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
-So, for the GoCardless notifications for payments created by payment schedule (As mentioned in above point) notifications would be suppressed.
+After getting necessary approvals, check section <a href = "https://asperato.github.io/userdocs/docs/suppressnotifications#approval-process"> “Approvals” </a>, if the value of the custom setting field "Suppress Notification for Payments" is set to true, as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
+So, for the payments created by payment schedule the GoCardless notifications would be suppressed.
