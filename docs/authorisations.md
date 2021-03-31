@@ -134,7 +134,7 @@ For users running Asperato **package 2.16+**, to cancel mandate
 ![Cancel mandate confirmation screen](/userdocs/img/auth/cancelmandateconfirmationscreen.PNG "Confirmation Screen")
 
 Note that, if the same Authorisation record, which was cancelled earlier, is processed from the SF then
-+ In SF the Authorisation Record will be updated from Cancelled to other state
++ In SF the same Authorisation Record will be updated from Cancelled to Pending status
 + In GC, a new Customer record would be created
 
 Clicking on the button will open the mandate (as saved with GoCardless) in a new tab of the browser.
