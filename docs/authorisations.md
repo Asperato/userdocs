@@ -120,15 +120,6 @@ To supply a link for processing externally, look for the “eCommerce URL” fie
 
 This will contain a URL pointing to a webpage for the user to enter their updated details to ‘update’ the authorisation. When the user has submitted the form, the Asperato authorisation record will be populated with the updated details. As above, this will create a new mandate in GoCardless rather than update the details on the existing one, all new payments against the updated Asperato authorisation record will use the newly created GoCardless mandate. 
 
-## Viewing a GoCardless Mandate from SF
-For users running Asperato **package 2.16+**, to cancel mandate
-+ Go to Authorisation for which mandate needs to be viewed
-+ Select Quick Action “View Mandate”
-
-![View mandate button](/userdocs/img/auth/viewmandate.PNG "View mandate button")
-
-+ You will see the mandate pdf in the new tab of the browser.
-
 ## Cancelling a GoCardless Authorisation/Mandate
 For users running on Asperato **package 2.15 and below**, this has to be done directly on the GoCardless by logging in to your GoCardless Dashboard.
 
