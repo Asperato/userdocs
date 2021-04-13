@@ -20,7 +20,9 @@
       "scasupport",
       "psppassthrough",
       "fiparams",
-       "beyond"
+      "successplus",
+      "SuppressNotifications",
+      "beyond"
     ]
   }
 }
