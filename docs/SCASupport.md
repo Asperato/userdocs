@@ -49,7 +49,7 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
    + Description - Of your choice
    + Vendor name - Use same name as you have used for Sagepay (without SCA) connection.
 3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
-Refer [here](https://www.opayo.co.uk/support/12/36/test-card-details-for-your-test-transactions) for Sagepay PSD2 testing guidance
+Refer [here](https://www.opayo.co.uk/support/12/36/test-card-details-for-your-test-transactions) for Sagepay PSD2 testing guidance.
 
 ## Setting Up Braintree SCA Connection
 Create a new PSP connection from Asperato Setup with “Sagepay SCA”
@@ -64,4 +64,4 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
    + Private Key - same as used for non-sca connection
    + Click on "Save PSP Connection" button
 3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
-Refer [here](https://developers.braintreepayments.com/guides/3d-secure/testing-go-live/php) for Braintree PSD2 testing guidance
+Refer [here](https://developers.braintreepayments.com/guides/3d-secure/testing-go-live/php) for Braintree PSD2 testing guidance.
