@@ -63,5 +63,5 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
    + Public Key - same as used for non-sca connection
    + Private Key - same as used for non-sca connection
    + Click on "Save PSP Connection" button
-3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
+3. Upon save, if the connection is established successfully, you will see a green tick besides the connection just created.
 Refer [here](https://developers.braintreepayments.com/guides/3d-secure/testing-go-live/php) for Braintree PSD2 testing guidance.
