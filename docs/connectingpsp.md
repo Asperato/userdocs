@@ -245,6 +245,13 @@ Go to the URL: <a href="https://dashboard.stripe.com/settings/integration" targe
 
 Stripe might then ask you to verify you phone number, but once that is complete then you'll be able to process transactions.
 
+### TakePayments
+We need below details to create connection
+ - Merchant ID / gateway account ID – This can be found in the Take payments Merchant Management System (MMS), under "Account Admin" -> "Gateway Account Admin".
+ - Merchant password – This can also be set/reset in the Take payments Merchant Management System (MMS), under "Account Admin" -> "Gateway Account Admin".
+
+In case facing issue with finding the details, it is recommended to contact TakePayments support
+
 ### Vanco
 We need four pieces of information:
  - Username
