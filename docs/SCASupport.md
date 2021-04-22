@@ -52,7 +52,7 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
 Refer [here](https://www.opayo.co.uk/support/12/36/test-card-details-for-your-test-transactions) for Sagepay PSD2 testing guidance.
 
 ## Setting Up Braintree SCA Connection
-Create a new PSP connection from Asperato Setup with “Sagepay SCA”
+Create a new PSP connection from Asperato Setup with “Braintree SCA”
 1. Go to Asperato Setup page
 2. Click on "New PSP Connection". In the popup screen, select
    + Currency as "British Pound"
