@@ -53,8 +53,8 @@ The following statuses are available on the authorisation object:
 <th>In force</th>
 <td>The authorisation has been confirmed, is valid, and can be used to authorise a payment.</td>
 </tr><tr>
-<th>Submitted for Cancellation (2.16+)</th>
-<td>This status is used for direct debits created using GoCardless connection. It shows that the mandate/authorisation has been submitted for cancellation at the request of the payor, or at your request. The status is automatically updated to Cancelled when the mandate is cancelled at GoCardless</td>
+<th>Submitted for Cancellation</th>
+<td>Status value introduced in package version 2.16. This status is used for direct debit payments created using GoCardless connection. It shows that the mandate/authorisation has been submitted for cancellation at the request of the payor, or at your request. The status is automatically updated to Cancelled when the mandate is cancelled at GoCardless</td>
 </tr><tr>
 <th>Cancelled</th>
 <td>The authorisation has been cancelled at the request of the payor, or at your request.</td>
