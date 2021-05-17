@@ -9,7 +9,7 @@ The Financial Conduct Authority (FCA) have once more extended merchants‘ deadl
 Please see latest guidance from FCA
 https://www.fca.org.uk/firms/strong-customer-authentication
  
-All of our Customers will be able to use SCA ready connections to their preferred Payment Service Provider via our Salesforce package no later than the 14th March 2021.
+Click here to the supported payment service providers - https://asperato.github.io/userdocs/docs/supportedpsp
  
 You will be able to use the SCA ready connections without a package upgrade. All you need to do is to create a new connection from Asperato Setup Page via Salesforce.
 
