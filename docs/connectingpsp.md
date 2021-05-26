@@ -70,8 +70,10 @@ To connect Adyen to Asperato you will need:
 
 - Merchant account
 - API Key
+- Url Prefix
 
 The Merchant account dictates the name of the Adyen account you wish Asperato to connect to; it is not a piece of authentication data. You can view instructions for obtaining your API key <a href="https://docs.adyen.com/user-management/how-to-get-the-api-key/">here</a>.
+URL prefix is a combination of [Random]-[Companyname]. You can use any value when creating connection on staging. However, to create connection on Live server, you can get this information from you Live Customer Area > Account > API URLs. Read more about URL prefix <a href="https://docs.adyen.com/development-resources/live-endpoints#live-url-prefix">here</a>.
 
 ### Authorize.net
 To connect Authorize.net to Asperato you will need the values for:
