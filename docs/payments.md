@@ -22,9 +22,9 @@ Ad hoc payments can easily be taken where a related authorisation record is alre
  
 Note that the authorisation field will be pre-populated with the required authorisation record.
 
-2. Enter the required amount, and then hit Save. This will create the payment record with the authorisation attached.
-
-3. Navigate to the payment record, then hit the Process payment button.
+2. Enter the required amount, and then hit "Process Payment" button. 
+     1. This will create the payment record with the authorisation attached.
+     2. The payment would be immediaelty processed.    
  
 ## Automatically collecting payments against an existing authorisation
  
