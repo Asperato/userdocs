@@ -6,7 +6,7 @@ sidebar_label: Payment page
 
 The standard payment template is provided by Asperato and will look similar to the following:
 
-![Asperato standard payment template](/userdocs/img/asperato_template.png "Asperato standard template")
+![Asperato standard payment template](/userdocs/img/asperato_payment_page_template.PNG "Asperato standard payment page template")
 
 ## Template features
 
