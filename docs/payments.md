@@ -214,7 +214,7 @@ Whenever GoCardless will make a payout against the payments which were collected
 
 ## Custom references (2.13+)
 
-Some PSPs allow you to specify a custom reference attached to an payment. You can specify this by using the "Custom reference" field available on the payment object.
+Some PSPs allow you to specify a custom reference attached to an payment. You can specify this by using the "Custom reference" field available on the payment object. 
 
 However, note that not all PSPs or PSP account types support custom references, and some often have restrictions on the maximum length of a reference. You should check your PSPs documentation for any rules around specifying custom references. Note that setting a custom reference where they are not supported, or setting an invalid custom reference may cause a transaction to fail.
 
