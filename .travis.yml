@@ -7,6 +7,6 @@ branches:
 cache:
   yarn: true
 script:
-  - git config --global user.name "${GH_NAME}"
-  - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
-  - cd website && yarn install && GIT_USER="${GH_NAME}" yarn run publish-gh-pages
+  - git config --global user.name "${GH_NAME2}"
+  - echo "machine github.com login ${GH_NAME2} password ${GH_TOKEN2}" > ~/.netrc
+  - cd website && yarn install && GIT_USER="${GH_NAME2}" yarn run publish-gh-pages
