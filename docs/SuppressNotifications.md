@@ -4,7 +4,7 @@ title: Guide to Suppressing Payment Notification of GoCardless for Subscription 
 sidebar_label: Suppress Payment Notifications of GoCardless
 ---
 # Overview
-This feature will allow GoCardless customers  to manage the advance notices  sent to customers, rather than using the GoCardless emails. This will not affect the mandatory emails which are part of the BACS Scheme rules (e.g. the emails sent following Direct Debit set up). To use this feature you need to complete the mandatory approval process and package configuration as described below.
+This feature will allow GoCardless customers  to manage the advance payment collection notices  sent to customers, rather than using the GoCardless emails. This will not affect the mandatory emails which are part of the BACS Scheme rules (e.g. the emails sent following Direct Debit set up). To use this feature you need to complete the mandatory approval process and package configuration as described below.
 
 # Approval Process
 To be able to handle customer notifications yourself, you will need to be granted permission by GoCardless. It is a two step approval process when you are using GoCardless connection with Asperato to ensure compliance with Direct Debit scheme rules
@@ -41,5 +41,5 @@ After getting the required approval you do following configurations in the Asper
 
 ## Recurring Payments
 ### Payments Created by Payment Schedule
-After getting necessary approvals, check section <a href = "https://asperato.github.io/userdocs/docs/suppressnotifications#approval-process"> “Approvals” </a>, if the value of the custom setting field "Suppress Notification for Payments" is set to true, as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
-So, for the payments created by payment schedule the GoCardless notifications would be suppressed.
++ After getting necessary approvals, check section <a href = "https://asperato.github.io/userdocs/docs/suppressnotifications#approval-process"> “Approvals” </a>, if the value of the custom setting field "Suppress Notification for Payments" is set to true, as mentioned in section “Configuration in Asperato Package”, then all the payments created by payment schedule will have the value of “Suppress Notifications by PSP” set as True.
++ So, for the payments created by payment schedule the GoCardless notifications would be suppressed.
