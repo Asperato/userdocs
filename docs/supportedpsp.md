@@ -9,15 +9,15 @@ sidebar_label: Supported Payment Service Providers
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-oftd{background-color:#666;border-color:inherit;text-align:center;vertical-align:center}
+.tg .tg-oftd{background-color:#666;border-color:inherit;text-align:center;vertical-align:center} // NA
 .tg .tg-k5c5{background-color:#666;border-color:inherit;text-align:center;vertical-align:center}
 .tg .tg-1rdj{background-color:#FFD966;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center}
 .tg .tg-58xa{background-color:#FFF;border-color:#000000;color:#F00;font-weight:bold;text-align:center;vertical-align:center}//N
-.tg .tg-w4l0{background-color:#B7B7B7;border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-y9n6{background-color:#FFE599;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center}
-.tg .tg-xdju{border-color:inherit;color:#274E13;text-align:left;vertical-align:center}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center}
-.tg .tg-yyq2{border-color:inherit;color:#90F;font-weight:bold;text-align:center;vertical-align:center}
+.tg .tg-w4l0{background-color:#B7B7B7;border-color:inherit;text-align:center;vertical-align:center} // Not Supported
+.tg .tg-y9n6{background-color:#FFE599;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center} // Gateway / PSP Name
+.tg .tg-xdju{border-color:inherit;color:#274E13;text-align:left;vertical-align:center} // Mode name
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center} // green tick
+.tg .tg-yyq2{border-color:inherit;color:#90F;font-weight:bold;text-align:center;vertical-align:center} //Coming Soon
 .tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:center}
 .tg .tg-jk9u{border-color:#000000;color:#90F;font-weight:bold;text-align:center;vertical-align:center}
 .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:Center;vertical-align:center}
@@ -90,7 +90,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
-    <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Adyen</span></td>
@@ -139,6 +139,16 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+  </tr>
+   <tr>
+    <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">BlackBaud</span></td>
+    <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
