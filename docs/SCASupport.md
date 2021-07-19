@@ -14,7 +14,7 @@ Click here to the supported payment service providers - https://asperato.github.
 You will be able to use the SCA ready connections without a package upgrade. All you need to do is to create a new connection from Asperato Setup Page via Salesforce.
 
 We have already added SCA support for following PSPs and shall be available from within the package
-+ Ayden
++ Adyen
 + Braintree (A Paypal company)
 + Checkout.com
 + Cybersource
@@ -28,6 +28,21 @@ Below is a general guidance to create and use a SCA enable connection for a PSP
 + For PSD2 supported PSPs you will find a new PSP in the list with SCA appended to it. See below image
   ![Sca appended to SCA Supported PSPs](/userdocs/img/SCAConnections.png) 
 + Some cards require authentication everytime a transaction is made. For such cards future payments will fail.
+
+## Setting Up Ayden SCA Connection
+Create a new PSP connection from Asperato Setup with “Ayden SCA”
+1. Go to Asperato Setup page
+2. Click on "New PSP Connection". In the popup screen, select
+   + Currency as "British Pound"
+   + Mode as "ECOM"
+   + PSP as “Adyen SCA”
+   + Description - Of your choice
+   + Merchant account
+   + API Key - Generate API key as per the steps given [here](https://docs.adyen.com/development-resources/api-credentials#generate-api-key)
+   + Client Key - Generate Client key as per the steps given [here](https://docs.adyen.com/development-resources/client-side-authentication/migrate-from-origin-key-to-client-key#switch-to-using-the-client-key)
+   + URL Prefix - Enter as [A random string of hex-encoded bytes to make the hostname unpredictable]-[Company Name]. Refer Adyen documentation [here](https://docs.adyen.com/development-resources/live-endpoints) for more details.
+3. Upon save, if the connection is established successfully, you will see a green tick besides the connection just created.
+Refer [here](https://docs.adyen.com/development-resources/test-cards/test-card-numbers) for Adyen PSD2 testing guidance.
 
 ## Setting Up Braintree SCA Connection
 Create a new PSP connection from Asperato Setup with “Braintree SCA”
