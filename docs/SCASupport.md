@@ -18,7 +18,6 @@ We have already added SCA support for following PSPs and shall be available from
 + Braintree (A Paypal company)
 + Checkout.com
 + Cybersource
-+ Payline
 + Stripe
 + Sagepay
 + Worldpay
