@@ -210,7 +210,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Checkout.com</span></td>
@@ -230,7 +230,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">CyberSource</span></td>
@@ -620,7 +620,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Worldpay (Corporate)</span></td>
@@ -640,7 +640,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-yyq2"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">WorldPay Online</span></td>
