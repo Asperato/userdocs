@@ -17,7 +17,7 @@ sidebar_label: Supported Payment Service Providers
 .tg .tg-y9n6{background-color:#FFE599;border-color:inherit;font-weight:bold;text-align:left;vertical-align:center} // Gateway / PSP Name
 .tg .tg-xdju{border-color:inherit;color:#274E13;text-align:left;vertical-align:center} // Mode name
 .tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:center} // green tick
-.tg .tg-yyq2{border-color:inherit;color:#90F;font-weight:bold;text-align:center;vertical-align:center} //Coming Soon
+.tg .tg-yyq2{border-color:inherit;color:#90F;font-weight:bold;text-align:center;vertical-align:center} // Coming Soon
 .tg .tg-wp8o{border-color:#000000;text-align:center;vertical-align:center}
 .tg .tg-jk9u{border-color:#000000;color:#90F;font-weight:bold;text-align:center;vertical-align:center}
 .tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:Center;vertical-align:center}
@@ -460,7 +460,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-jk9u"><span style="font-weight:bold;color:#90F">Coming Soon</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Payline</span></td>
