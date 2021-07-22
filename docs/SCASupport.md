@@ -4,7 +4,7 @@ title: SCA Support
 sidebar_label: SCA Support
 ---
 
-The Financial Conduct Authority (FCA) have once more extended merchants‘ deadline for full SCA compliance, the previous date being March 2021 and the newly extended date being September 2021.
+The Financial Conduct Authority (FCA) have once more extended merchants‘ deadline for full SCA compliance, the previous date being September 2021 and the newly extended date being March 2022.
  
 Please see latest guidance from FCA
 https://www.fca.org.uk/firms/strong-customer-authentication
