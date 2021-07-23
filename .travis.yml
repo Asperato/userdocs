@@ -6,7 +6,6 @@ branches:
     - master
 cache:
   yarn: true
-  
 script:
    - git config --global user.name "${GH_NAME}"
    - echo "machine github.com login ${GH_NAME} password ${GH_TOKEN}" > ~/.netrc
