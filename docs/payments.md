@@ -33,7 +33,7 @@ Payments can be automatically collected against an existing authorisation by cre
  - The payment record is attached to an authorisation
  - The attached authorisation's status is either “In force” or “Pending”
  - The payment record has a "Due date" either today, or in the past
- - The "Payment route selected" for the payment record and attached authorisation have a matching value (v2.14+).
+ - The field value for "Payment route selected" has a matching value on both records - the payment and attached authorisation (v2.14+).
  
 An overnight batch job will run and attempt to collect any payments that fulfil these above criteria.
  
