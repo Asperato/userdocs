@@ -354,7 +354,7 @@ The sanitised responses we currently support are listed here:
 <th>FEATURE_DISABLED_AT_GATEWAY</th>
 <td>Transaction declined. Please contact the merchant or try a different payment method</td>
 </tr>
-</table>
+ </table>
 
 ## GoCardless Payments Reconcilliation (2.16+)
 Whenever GoCardless will make a payout against the payments which were collected from customers, the value of "Payout Reference" field will be updated with the GoCardless "Payout Number". You can use this field to create reports for Payouts grouped by Payments for reconcilliation.
