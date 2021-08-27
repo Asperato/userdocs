@@ -151,12 +151,12 @@
 <td>A repeat payment was attempted using an authorisation, but the gateway did not have a record of this authorisation.</td>
 </tr>
 <tr>
-<th>DECLINED_NAME</th>
+<th>DECLINED_INVALID_NAME</th>
 <td>Transaction declined, a valid name was not provided.</td>
 </tr>
 <tr>
 <th>DECLINED_FRAUD</th>
-<td>Transaction declined. A reason was not given.</td>
+<td>Transaction declined due to an unspecified issue. Please contact your bank for more details</td>
 </tr>
 <tr>
 <th>DECLINED_AVS</th>
@@ -171,20 +171,24 @@
 <td>Declined, routing number was incorrect</td>
 </tr>
 <tr>
+<th>DECLINED_CV2</th>
+<td>Declined, card security code was incorrect. Please check the digits given on the reverse of card (or the front of the card for American Express) and try again.</td>
+</tr>
+<tr>
 <th>DECLINED_CARD_DETAILS</th>
 <td>Declined, card details were incorrect. Please check the card details entered. If the problem persists please contact your card issuer or try a different payment method.</td>
 </tr>
 <tr>
-<th>DECLINED_MANDATE_ERROR</th>
-<td>Mandate is failed, cancelled or expired</td>
+<th>DECLINED_WRONG_CARD_TYPE</th>
+<td>Declined, the card type you specified does not match the card number. Please check the card details entered.</td>
+</tr>
+<tr>
+<th>DECLINED_UNSUPPORTED_CARD_TYPE</th>
+<td>Declined, the card you used isn't supported. Please try with a different card or contact the company you are trying to make payment to.</td>
 </tr>
 <tr>
 <th>DECLINED_DUPLICATE</th>
 <td>Declined, duplicate transaction. Please do not try again as payment has most likely already been collected. Please contact the company you are trying to make payment to.</td>
-</tr>
-<tr>
-<th>DECLINED_CV2</th>
-<td>Declined, card security code was incorrect. Please check the last 3 digits on the reverse of card and try again.</td>
 </tr>
 <tr>
 <th>DECLINED_ISSUE</th>
@@ -199,20 +203,8 @@
 <td>Declined, card expired. Please use a different card or contact your bank.</td>
 </tr>
 <tr>
-<th>DECLINED_INVALID_AMOUNT</th>
-<td>Declined, invalid amount. Please check the amount and try again. If the problem persists, please contact the company you are trying to make payment to.</td>
-</tr>
-<tr>
 <th>DECLINED_INVALID_EMAIL</th>
 <td>Declined, the email address is mandatory and a valid one was not provided. Please try again and enter your email address.</td>
-</tr>
-<tr>
-<th>DECLINED_UNSUPPORTED_CARD_TYPE</th>
-<td>Declined, the card you used isn't supported. Please try with a different card or contact the company you are trying to make payment to.</td>
-</tr>
-<tr>
-<th>DECLINED_WRONG_CARD_TYPE</th>
-<td>Declined, the card type you specified does not match the card number. Please check the card details entered.</td>
 </tr>
 <tr>
 <th>DECLINED_UNSUPPORTED_CURRENCY_TYPE</th>
@@ -223,22 +215,176 @@
 <td>Declined, no payment service provider has been set up for this currency.</td>
 </tr>
 <tr>
+<th>DECLINED_INVALID_AMOUNT</th>
+<td>Declined, invalid amount. Please check the amount and try again. If the problem persists, please contact the company you are trying to make payment to.</td>
+</tr>
+<tr>
 <th>DECLINED_AMOUNT_TOO_LARGE</th>
 <td>Declined, the amount is too large.</td>
 </tr>
 <tr>
 <th>DECLINED_INSUFFICIENT_FUNDS</th>
-<td>Declined, there are insufficient funds on this account.</td>
+<td>Declined, there are insufficient funds in this account.</td>
 </tr>
 <tr>
 <th>DECLINED_PAYER_DECEASED</th>
 <td>Declined, this account belongs to someone who is deceased.</td>
 </tr>
 <tr>
+<th>DECLINED_AMOUNT_MISMATCH</th>
+<td>Declined, the amount does not match the amount of the previous transaction
+</td>
+</tr>
+<tr>
+<th>DECLINED_ALREADY_SETTLED</th>
+<td>Declined, this transaction has already been settled</td>
+</tr>
+<tr>
+<th>DECLINED_REFERRED</th>
+<td>Declined. Your bank has not authorised the transaction, Please contact your card issuing bank for more details and then try to process the transaction again</td>
+</tr>
+<tr>
+<th>DECLINED_CREDIT_LIMIT_EXCEEDED</th>
+<td>Declined, there are insufficient funds in the account. Please try with other card or payment method.</td>
+</tr>
+<tr>
+<th>DECLINED_CARD_TYPE_NOT_PERMITTED</th>
+<td>Declined, the card type presented is not accepted by the merchant. Please use a different card</td>
+</tr>
+<tr>
+<th>DECLINED_ALREADY_REVERSED</th>
+<td>Declined, this authorisation has already been reversed
+</td>
+</tr>
+<tr>
+<th>DECLINED_USAGE_LIMIT_EXCEEDED</th>
+<td>Declined, the card has exceeded its usage limit - either the number of times used or the cumulative amount processed. Please use a different payment method</td>
+</tr>
+<tr>
+<th>DECLINED_TRANSACTION_COMPLETED</th>
+<td>Declined, the transaction being referenced has already been completed so this operation cannot be performed. Please try again and if this error persists, please contact the merchant</td>
+</tr>
+<tr>
+<th>DECLINED_MISSING_FIELDS</th>
+<td>Declined, some of the fields are missinging in the request. Please try again. If the problem persists contact your merchant.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_DATA</th>
+<td>Declined, some of the fields contain invalid data in the request. Please try again. If the problem persists contact your merchant.</td>
+</tr>
+<tr>
+<th>DECLINED_CARD_NOT_AUTHORISED_OR_INACTIVE</th>
+<td>Declined, this card is not authorised for this transaction or has marked as inactive. Please contact your bank.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_CARD</th>
+<td>The Card was declined by the issuer.</td>
+</tr>
+<tr>
+<th>PAYMENT_RETRY_FAILED</th>
+<td>Payment retry failed at Payment Gateway. Please contact Payment Gateway for more information.</td>
+</tr>
+<tr>
 <th>DECLINED_GATEWAY_ERROR</th>
 <td>Declined, the gateway encountered an error. Please try again in a few minutes. If the problem persists, please contact the company you are trying to make payment to.</td>
 </tr>
-</table>
+<tr>
+<th>DECLINED _WRONG AUTHENTICATION</th>
+<td>Declined, the authentication entered is incorrect</td>
+</tr>
+<tr>
+<th>DECLINED_SESSION EXPIRED</th>
+<td>Declined, the 3D authentication was not entered and session expired.</td>
+</tr>
+<tr>
+<th>AUTHENTICATION_REQUIRED</th>
+<td>The Payment using this card requires authentication. Please authenticate the cardholder to continue with the transaction.</td>
+</tr>
+<tr>
+<th>TRANSACTION_DECLINED_BY_ISSUER</th>
+<td>Transaction was declined for this card/account. Please contact your bank.</td>
+</tr>
+<tr>
+<th>DECLINED_INVALID_API_KEYS</th>
+<td>The api keys used for connection are not valid. Please get the updated keys from gateway and correct the connection details in Asperato.</td>
+</tr>
+<tr>
+<th>REFUND_DECLINED_BY_GATEWAY</th>
+<td>Refund could not be processed by gateway. Either the Payment is not paid out or the number of refunds that can be collected against payment have exceeded.</td>
+</tr>
+<tr>
+<th>DECLINED_PAYMENT_REFUNDED</th>
+<td>A refund against the payment has already been issue.</td>
+</tr>
+<tr>
+<th>DECLINED_MANDATE_ERROR</th>
+<td>Mandate is either not setup, Inactive, failed, cancelled or expired</td>
+</tr>
+<tr>
+<th>MANDATE_CANCELLATION_FAILED</th>
+<td>Authorisation can not be cancelled as the related mandate could not be cancelled by PSP. Please try after sometime or check status in the PSP dashboard.</td>
+</tr>
+<tr>
+<th>BANK_ACCOUNT_DISABLED</th>
+<td>Process could not be established. Customer bank account is disabled or does not exist.</td>
+</tr>
+<tr>
+<th>AUTHORISATION_ERROR</th>
+<td>The Card/Bank details could not be authorised for some reason. Please try again with other account.</td>
+</tr>
+<tr>
+<th>INVALID_BANK_ACCOUNT</th>
+<td>The bank account details entered are invalid.</td>
+</tr>
+<tr>
+<th>DECLINED_NOT_SUPPORTED</th>
+<td>Declined, the requested operation is not supported by the merchant's payment facility. Please contact the merchant or try a different payment method</td>
+</tr>
+<tr>
+<th>DECLINED_NO_USABLE_AUTH_FOUND</th>
+<td>Declined, this authorisation being referenced has either already been captured or was previously declined. Please try a different payment method and if this error persists, please contact the merchant</td>
+</tr>
+<tr>
+<th>AUTHORISATION_DISPUTED_CHARGEBACK_ISSUED</th>
+<td>A chageback back was issued by customer's bank because either the mandate or the payment was not approved by the customer </td>
+</tr>
+<tr>
+<th>MANDATE_CANCELLED_CHARGEBACK_ISSUED</th>
+<td>This payment was charged back because the mandate was withdrawn by customer at their bank</td>
+</tr>
+<tr>
+<th>CHARGEBACK_ISSUED</th>
+<td>The payment was charged back.</td>
+</tr>
+<tr>
+<th>AMOUNT_DISPUTED_CHARGEBACK_ISSUED</th>
+<td>The customer has disputed that the amount taken differs from the amount they were notified of.</td>
+</tr>
+<tr>
+<th>FRAUD_REPORTED_CHARGEBACK_ISSUED</th>
+<td>The customer has disputed having been notified of this Direct Debit.</td>
+</tr>
+<tr>
+<th>REFUND_REQUESTED_CHARGEBACK_ISSUED</th>
+<td>A chargeback was issued against this payment, by the customer’s bank at the customer’s request within the 8 week cool-off period.</td>
+</tr>
+<tr>
+<th>CHARGEBACK_ERROR</th>
+<td>The chargeback for this transaction can not be issued. Please contact your Issuer/ bank.</td>
+</tr>
+<tr>
+<th>BANK_SERVER_ERROR</th>
+<td>Could not connect to bank because the bank server is either down or not responding</td>
+</tr>
+<tr>
+<th>PSP_SERVER_ISSUE</th>
+<td>Payment could not be processed by the Payment server or Payment Server is not running.</td>
+</tr>
+<tr>
+<th>FEATURE_DISABLED_AT_GATEWAY</th>
+<td>Transaction declined. Please contact the merchant or try a different payment method</td>
+</tr>
+ </table>
 <h2><a class="anchor" aria-hidden="true" id="gocardless-payments-reconcilliation-216"></a><a href="#gocardless-payments-reconcilliation-216" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GoCardless Payments Reconcilliation (2.16+)</h2>
 <p>Whenever GoCardless will make a payout against the payments which were collected from customers, the value of &quot;Payout Reference&quot; field will be updated with the GoCardless &quot;Payout Number&quot;. You can use this field to create reports for Payouts grouped by Payments for reconcilliation.</p>
 <h2><a class="anchor" aria-hidden="true" id="custom-references-213"></a><a href="#custom-references-213" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Custom references (2.13+)</h2>
