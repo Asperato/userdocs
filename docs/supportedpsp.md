@@ -144,10 +144,30 @@ Below table lists the PSPs supported by Asperato with the details of the feature
   </tr>
    <tr>
     <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">BlackBaud</span></td>
+    <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
+  </tr>
+   <tr>
+    <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">BlackBaud</span></td>
+    <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+  </tr>  
+   <tr>
+    <td class="tg-wuzg"><span style="font-weight:bold;color:#000;background-color:#FFE599">BlackBaud</span></td>
     <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
@@ -190,7 +210,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Cardsave</span></td>
@@ -249,7 +269,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
@@ -269,7 +289,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
@@ -319,8 +339,8 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
-    <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">GoCardless PAD (CAD)</span></td>
@@ -329,8 +349,8 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
-    <td class="tg-k5c5"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">Intellipay</span></td>
@@ -419,8 +439,8 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-wp8o"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
-    <td class="tg-w4l0"><span style="background-color:#B7B7B7">Not Supported</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
+    <td class="tg-zlby"><span style="background-color:#B7B7B7">Not Supported</span></td>
   </tr>
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Paya</span></td>
