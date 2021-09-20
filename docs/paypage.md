@@ -60,8 +60,9 @@ Please note that this overlay library is intended to be used as a simple mechani
 
 The parameters that are used for setting up the overlay are equivalent to the parameters specified in the "eCommerce URL" (which can be found on any payment record):
 
- - The "pid" parameter on the URL is the "paymentRef" parameter on the overlay;
- - The "pmRef" parameter on the URL is the "customerRef" parameter on the overlay.
+ - The "pid" parameter on the URL is the "paymentRef" parameter on the overlay
+ - The "pmRef" parameter on the URL is the "customerRef" parameter on the overlay
+ - The “dit” parameter on the URL is the “key” 
 
 For example, if the URL on a payment record is `https://demo.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5`, then the `customerRef` parameter would be `121`, and the `paymentRef` parameter would be `a031n00000XGkm5`.
 
@@ -95,7 +96,8 @@ Also, as per the comment, the environment name is available in the payment page 
 ```javascript
 form.showForm(
     {
-        paymentRef: "a030Y008393c4E4"
+        paymentRef: "a030Y008393c4E4",
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
     }
 );
 ```
@@ -108,7 +110,8 @@ You may also set the default payment type shown on the payment page:
 form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
-        defaultPayType: "dd" //"card", "dd", "paypal" or "echeck"
+        defaultPayType: "dd" //"card", "dd", "paypal" or "echeck",
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
     }
 );
 ```
@@ -140,7 +143,8 @@ https://live.protectedpayments.net/donationline/newnew/asperato-form-lighnting-1
             );
          form.showForm(
          {
-              paymentRef: "a030Y008393c4E4" // Replace with payment Id
+              paymentRef: "a030Y008393c4E4", // Replace with payment Id
+              dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
          }
          );
      }
