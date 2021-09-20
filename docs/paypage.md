@@ -64,7 +64,7 @@ The parameters that are used for setting up the overlay are equivalent to the pa
  - The "pmRef" parameter on the URL is the "customerRef" parameter on the overlay
  - The “dit” parameter on the URL is the “key” 
 
-For example, if the URL on a payment record is `https://demo.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5`, then the `customerRef` parameter would be `121`, and the `paymentRef` parameter would be `a031n00000XGkm5`.
+For example, if the URL on a payment record is `https://demo.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5&locale=en-GB&dit=9527c1725cc56eb739d452651a46bc29e286ac6d7b63994f16b035f746455179`, then the `customerRef` parameter would be `121`, and the `paymentRef` parameter would be `a031n00000XGkm5`.
 
 To use the template as an overlay, just three bits of Javascript are needed:
 
@@ -87,7 +87,7 @@ let form = new PaymentFormDisplay(
     
 As per the comment, the customer reference `9797` is an example and will need to be changed to your Asperato customer ID (obtained when you connect your Saleforce Org to Asperato.)
 
-Also, as per the comment, the environment name is available in the payment page URL. For example, if the URL on  a payment record is "https://test.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5" then "test" is the environment name. 
+Also, as per the comment, the environment name is available in the payment page URL. For example, if the URL on  a payment record is "https://test.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5&locale=en-GB&dit=9527c1725cc56eb739d452651a46bc29e286ac6d7b63994f16b035f746455179" then "test" is the environment name. 
 
 
     
