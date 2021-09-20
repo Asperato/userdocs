@@ -110,7 +110,7 @@ You may also set the default payment type shown on the payment page:
 form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
-        defaultPayType: "dd" //"card", "dd", "paypal" or "echeck",
+        defaultPayType: "dd", //"card", "dd", "paypal" or "echeck"
         dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
     }
 );
