@@ -97,7 +97,7 @@ Also, as per the comment, the environment name is available in the payment page 
 form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
-        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record. This field is available 2.17+ and is used to enforce the data integrity
     }
 );
 ```
@@ -111,7 +111,7 @@ form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
         defaultPayType: "dd", //"card", "dd", "paypal" or "echeck"
-        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record. This field is available 2.17+ and is used to enforce the data integrity
     }
 );
 ```
@@ -144,7 +144,7 @@ https://live.protectedpayments.net/donationline/newnew/asperato-form-lighnting-1
          form.showForm(
          {
               paymentRef: "a030Y008393c4E4", // Replace with payment Id
-              dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
+              dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record. This field is available 2.17+ and is used to enforce the data integrity
          }
          );
      }
