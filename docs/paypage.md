@@ -97,7 +97,7 @@ Also, as per the comment, the environment name is available in the payment page 
 form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
-        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
     }
 );
 ```
@@ -111,7 +111,7 @@ form.showForm(
     {
         paymentRef: "a030Y008393c4E4",
         defaultPayType: "dd", //"card", "dd", "paypal" or "echeck"
-        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
+        dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
     }
 );
 ```
@@ -144,14 +144,14 @@ https://live.protectedpayments.net/donationline/newnew/asperato-form-lighnting-1
          form.showForm(
          {
               paymentRef: "a030Y008393c4E4", // Replace with payment Id
-              dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //"data integrity token value available in payment record from asperato package 2.17 onwards to enforce the data integrity"
+              dit: "a030Y008393c4E487647bdbnfjhsgvd83yghsd" //Obtain the value of "dit" from "data integrity token" field available on payment record (field added in V2.17) to enforce the data integrity
          }
          );
      }
 })
   
 ```
-5. To access this page in a Salesforce Community, add the payment page URL in CSP Trusted Sites in the Salesforce Community. For example, if the URL on a payment record is `https://live.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5&locale=en-GB&dit=9527c1725cc56eb739d452651a46bc29e286ac6d7b63994f16b035f746455179` in  CSP Trusted Sites in salesforce.
+5. To access this page in a Salesforce Community, add the payment page URL in CSP Trusted Sites in the Salesforce Community. For example, if the URL on a payment record is `https://live.protectedpayments.net/PMWeb1?pmRef=121&pid=a031n00000XGkm5&locale=en-GB&dit=9527c1725cc56eb739d452651a46bc29e286ac6d7b63994f16b035f746455179`, then add 'https://live.protectedpayments.net' in  CSP Trusted Sites in salesforce.
 
 Also implement the <b>forceCommunity:availableForAllPageTypes</b> interface in lightning component
 ```javascript
