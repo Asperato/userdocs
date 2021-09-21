@@ -16,6 +16,8 @@ You can then access the payment page via one of two ways:
  
 Ad hoc payments can easily be taken where a related authorisation record is already set up.
 
+### Creating New Payment from Authorisation Record
+
 1. Navigate to the authorisation record for which you wish to set up a payment. Under the payment related list for the authorisation, select `New`:
  
 ![New payment from auth](/userdocs/img/payments/payment_related_auth.png)
@@ -25,7 +27,23 @@ Note that the authorisation field will be pre-populated with the required author
 2. Enter the required amount, and then hit the "Process Payment" button. 
      1. This will create the payment record with the authorisation attached.
      2. The payment would be immediately processed.    
- 
+
+### Creating New Payment using Existing “In Force” Authorisation (2.17+)
+Note: If you are upgrading from an older version to 2.17 then to use this feature, you will need to update the page layout of Payment Object to add Quick Action “Process Payment Using Authorisation”
+1. Navigate to the Payments tab and create a New Payment by clicking on the “New” button.
+2. Enter the Amount and select the Payment Route option and click on Save button.
+3. Click on the “Process Payment Using Authorisation” button
+
+![Process Payment Using Authorisation](/userdocs/img/payments/Process_Payment_Using_Authorisation_Button.png)
+
+4. Select the Authorisation record against which the payment has to be processed.
+
+![Authorisation Record Changes 2.17](/userdocs/img/payments/Process_Payment_Using_Authorisation_Screen.png)
+
+5. Click on the Process Payment button.
+     1. The payment would be immediately processed through the details captured on the Authorisation record. Note that the time for collection of payment depends on the payment method (eg, card, DD, etc.) through which the payment is processed.
+
+
 ## Automatically collecting payments against an existing authorisation
  
 Payments can be automatically collected against an existing authorisation by creating a payment record where the following conditions are true:
