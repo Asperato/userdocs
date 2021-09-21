@@ -60,6 +60,40 @@ Try out the connection and take a simple, one-off card payment:
  
 Refresh the Salesforce payment record once complete to see the payment record completed. Congratulations - you've taken your first test payment!
 
+## Add/ Remove Courtesy email Address from Asperato setup page (2.17+)
+
+You can configure the email address on which you want to receive the courtesy and error notification email from Asperato app, installed in your SF org, from the “Asperato Setup” page -> Error Notification section.
+
+Please refer to <a href="https://payonomy.freshdesk.com/support/solutions/articles/43000625614-overview-of-asperato-courtesy-notification-emails">this link</a> to know more about Courtesy notifications.
+ 
+### Adding email address
+To add an email address, 
+   1. Navigate to the “Asperato Setup” page.
+   2. Navigate to “Email Notification” section
+   3. Click on the “New Email Address” button. 
+   
+   ![New Email Address Button](/userdocs/img/overview/newemailaddressbutton.PNG "New Email Address Button")
+   
+   4. A window will appear.
+   5. In that window enter a valid email address on which you want to receive the notification emails related to “Asperato One” app installed in your SF org.
+   6. Click on the “Add Email” button.
+  
+  ![Add Email Address Button](/userdocs/img/overview/newemailaddresspopupwindow.PNG "New Email Address Popup Window")
+
+The email is now added. You can add up to five email addresses in this way.
+
+### Removing email address
+
+To remove an email address,
+   1. Navigate to the “Asperato Setup” page.
+   2. Navigate to “Email Notification” section
+   3. Click on the “Delete” link. 
+   4. You will get a confirmation message. Click on the “Delete Email” button.
+  
+  ![Remove Email Address Confirmation Screen](/userdocs/img/overview/DeleteConfirmationScreen.PNG "Delete confirmation Screen window")
+
+This will remove the email address to receive the error and courtesy notification emails from AsperatoOne app installed in your Salesforce Org.
+
 ## User permissions
 You probably won't want all your Salesforce users to have permission to take payments. Asperato ONE ships with 3 <a href="https://help.salesforce.com/articleView?id=perm_sets_overview.htm&type=5" target="_blank">permission sets</a> that you can apply to relevant users in your org:
 
