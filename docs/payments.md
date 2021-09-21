@@ -110,6 +110,32 @@ Payment statuses are provided as follows:
 </table>
  
 ## Cancellations / Refunds in Salesforce
+
+### Cancellations
+#### Cancelling a GoCardless Pending Payment
+For users running on Asperato package 2.16 and below, this has to be done directly on the GoCardless by logging in to your GoCardless Dashboard.
+
+For users running Asperato package 2.17+, to cancel a pending Payment (Payment with status Awaiting Submission / Submitted for Collection)
+
+Note: To use this feature, ask your salesforce admin or SI to update the Payment page layout to include "Cancel Payment" quick action button
+
+To Cancel a Payment take fllowing steps
+   1. Go to Payment that needs to be cancelled
+   2. Select Quick Action “Cancel Payment”
+   
+   ![Cancel Payment Quick Action Button](/userdocs/img/payments/Cancel_Payment_Option.png)
+   
+   3. You will see a confirmation screen. Upon confirming the Payment will be cancelled at both SF and GC side and the status of payment record would be updated to "Cancelled" as well.
+   
+   ![Cancellation confirmation screen](/userdocs/img/payments/Confirmation_screen_cancel_payment.png)
+
+Note that, Asperato status “Submitted for Collection” corresponds to GC status of ”Pending” and “Submitted”. When a Payment with status as “Submitted for Collection” is Cancelled, then it actually gets cancelled if the status on GC is still "Pending". If the status on GC has been updated to “Submitted” then the payment does not get cancelled and it will be collected from the customer. In this case, when cancellation does not happen, you may try the refund route.
+
+Once the Payment is cancelled the status of Payment is updated to “Cancelled” and the Payment stage Description is updated to “This payment was cancelled at your request.”.
+
+However, if the Payment cancellation fails, then the status of Payment record is not updated and the value in payment stage Description field is updated to say that “Payment cannot be cancelled”
+
+### Refunds
 If you wish to refund a payment, navigate to the payment record and press the “Refund” button. This will show as a standard button in classic, and a quick action in lightning:
  
 ![Refund button](/userdocs/img/payments/refund_button.png)
