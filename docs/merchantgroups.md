@@ -33,15 +33,15 @@ No. If, for any given currency and payment route, you only need a single PSP con
 ## Creating a new merchant group
 Head to the Asperato Setup page, and hit the "New group..." button:
 
-![New group button](/userdocs/img/merchant_group/newgroupbutton.png)
+![New group button](/userdocs/img/merchant_group/newgroupbutton_R2_17.png)
 
 Then type in the new group name in the dialog that appears. Be careful here - the group name *cannot* be changed later, aside from deleting and re-adding the merchant group.
 
-![New group dialog](/userdocs/img/merchant_group/newgroupdialog.png)
+![New group dialog](/userdocs/img/merchant_group/newgroupdialog_R2_17.png)
 
 You'll then see the new group created and selected on the setup page. It will be empty - you'll need to populate it with at least one PSP connection before you can use it:
 
-![New group created](/userdocs/img/merchant_group/newgroupcreated.png)
+![New group created](/userdocs/img/merchant_group/newgroupcreated_R2_17.png)
 
 ## Adding PSP connections to a merchant group
 To add a PSP connection to a merchant group, first select the group on the Asperato Setup page, then hit the "Add new connection" button.
