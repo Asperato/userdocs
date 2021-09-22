@@ -117,11 +117,11 @@ Payment statuses are provided as follows:
 </tr>
 </tr>
 <th>Pending For Cancellation</th>
-<td>Status added in R2.17</td>
+<td>Status value introduced in package version 2.17. This is an intermmediate status when submitting a payment for cancellation from Salesforce. Please note cancellation of payments is currently supported only for GoCardless payments</td>
 </tr>
 </tr>
 <th>Cancelled</th>
-<td>Status added in R2.17</td>
+<td>Status value introduced in package version 2.17. This status suggests that the payment collection was cancelled. Please note cancellation of payments is currently supported only for GoCardless payments</td>
 </tr>
 </table>
  
