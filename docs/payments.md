@@ -24,9 +24,9 @@ Ad hoc payments can easily be taken where a related authorisation record is alre
  
 Note that the authorisation field will be pre-populated with the required authorisation record.
 
-2. Enter the required amount, and then hit the "Process Payment" button. 
+2. Enter the required amount, and then hit the "Payment Using Authorisation" button. 
      1. This will create the payment record with the authorisation attached.
-     2. The payment would be immediately processed.    
+     2. The payment would be immediately processed (2.17+). For older releases (before R2.17) the payment record would be created and will be processed through daily batch. 
 
 ### Creating New Payment using Existing “In Force” Authorisation (2.17+)
 Note: If you are upgrading from an older version to 2.17 then to use this feature, you will need to update the page layout of Payment Object to add Quick Action “Process Payment Using Authorisation”
