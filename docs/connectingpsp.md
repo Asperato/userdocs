@@ -18,7 +18,7 @@ Once you are in lightning experience, navigate to the "Asperato Setup" tab and t
 
 1. Click the "New PSP connection" button on the "PSP connections" lightning component:
 
-![Add new connection](/userdocs/img/adding_psp/add_new_connection_R2_15.PNG)
+![Add new connection](/userdocs/img/merchant_group/newgroupbutton_R2_17.png)
 
 2. In the dialog that appears, select:
 
