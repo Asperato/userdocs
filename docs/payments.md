@@ -16,7 +16,7 @@ You can then access the payment page via one of two ways:
  
 Ad hoc payments can easily be taken where a related authorisation record is already set up.
 
-### Creating New Payment from Authorisation Record
+### Creating New Payment from Authorisation Record and processing Payment record separately
 
 1. Navigate to the authorisation record for which you wish to set up a payment. Under the payment related list for the authorisation, select `New`:
  
@@ -24,7 +24,15 @@ Ad hoc payments can easily be taken where a related authorisation record is alre
  
 Note that the authorisation field will be pre-populated with the required authorisation record.
 
-2. Enter the required amount, and then hit the "Payment Using Authorisation" button. 
+2. You can then Process Payment in usual way as mentioned in [Collecting one-off payments](#collecting-one-off-payments)
+
+### Creating and Processing New Payment from Authorisation Record at once
+1. Navigate to the authorisation record for which you wish to set up a payment. Click on "Payment Using Authorisation" button.
+2. A pop-up window will open.
+
+![Payment Using Authorisation PopUp Screen](/userdocs/img/payments/PopupScreenPaymentUsingAuthorisation.png)
+
+3. Enter the required amount, and then hit the "Process Payment" button. 
      1. This will create the payment record with the authorisation attached.
      2. The payment would be immediately processed (2.17+). For older releases (before R2.17) the payment record would be created and will be processed through daily batch. 
 
