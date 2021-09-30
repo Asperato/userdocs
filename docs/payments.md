@@ -37,7 +37,10 @@ Note that the authorisation field will be pre-populated with the required author
      2. The payment would be immediately processed (2.17+). For older releases (before R2.17) the payment record would be created and will be processed through daily batch. 
 
 ### Processing New Payment linked with Authorisation Record from code
-A new flow is added with Release 2.17. This flow process a single payment immediately, from the linked authorisation, and can be called from code. Sample code to call this flow is below 
+A new flow is added with Release 2.17. This flow process a single payment immediately, from the linked authorisation, and can be called from code. 
+The flow api name is asp04.Process_Immediate_Payment. This flow need "payment Id" as input.
+
+Sample code to call this flow is below 
 
 ```javascript
 Map<String, Object> params = new Map<String, Object>();
