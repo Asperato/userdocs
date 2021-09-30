@@ -26,9 +26,13 @@ Note that the authorisation field will be pre-populated with the required author
 
 2. You can then Process Payment in usual way as mentioned in [Collecting one-off payments](#collecting-one-off-payments)
 
-### Creating and Processing New Payment from Authorisation Record at once
+### Creating and Processing New Payment from Authorisation Record at once from UI
 1. Navigate to the authorisation record for which you wish to set up a payment. Click on "Payment Using Authorisation" button.
 2. A pop-up window will open.
+
+### Processing New Payment linked with Authorisation Record from code
+A new flow is added with Release 2.17. This flow process a single payment immediately, from the linked authorisation, and can be called from code. Sample code to call this flow is below 
+
 
 ![Payment Using Authorisation PopUp Screen](/userdocs/img/payments/PopupScreenPaymentUsingAuthorisation.png)
 
