@@ -103,7 +103,7 @@ Key fields include:
 </tr>
 </table>
  
-## Refund
+### Refund
 The refund object is a child of the payment object. 
 
 Refund contains both the request for a refund to occur and also the response once it has been processed. By default this object does not have an application tab and is only accessed as a related list to the relevant Payment record.
@@ -112,7 +112,7 @@ Refunds are processed by Salesforce users only, typically via a Salesforce "quic
 
 Refund functionality is dependant on the Payment Service provider but typically you can do any number of partial refunds up to the amount of the original payment. For Direct Debit refunds are possible but come with added risk as it is very easy for a customer to request a refund for a Direct Debit payment direct from their bank and as such this is normally the recommended approach.
 
-## Payment Schedule
+### Payment Schedule
 Payment Schedule contains the information needed to drive the creation of payments where they need to recur automatically. Payment schedules have a lookup relationship with Authorisation.
 
 Their only function is to create Payment records, linked to Authorisations (Saved Payment methods) on a fixed schedule so that these payments can be collected automatically.
