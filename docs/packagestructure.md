@@ -490,7 +490,7 @@ The following provides a description of the available Asperato ONE objects and t
   </tr>
   <tr>
     <td>Raw Error Message from PSP</td>
-    <td>Error code and message received from PSP in case of failure. In case it does not match the sanitized error then please contact Asperato Support, so that it can be corrected.</td>
+    <td>This field is introduced in release 2.17. It shows the error code and message received from PSP in case of failure. In case it does not match the sanitized error then please contact Asperato Support, so that it can be corrected.</td>
   </tr>   
 </table>
 
