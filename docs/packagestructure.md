@@ -521,4 +521,12 @@ These settings are not routinely changed from the default values, unless specifi
     <td>Server URL</td>
     <td>This is the URL of the server that Asperato will use to process payments, refunds and authorisations. At application download this is set to the test server route. For a live installation this will be amended by the Asperato team to point to the live server instance.</td>
   </tr>
+  <tr>
+    <td>Suppress Notification for Payments</td>
+    <td>Introduced in release 2.16. And it is currently supported only with GoCardless Payments. If you have obtained <a href="https://asperato.github.io/userdocs/docs/suppressnotifications"> required approvals</a>, then if this setting is set to true the Payment releated notifications from PSP would be suppressed. This would allow you to send your custom notifications for Payment.</td>
+  </tr> 
+  <tr>
+    <td>Enable Pay/auth URL Data Integrity</td>
+    <td> Introduced in release 2.17. When set true, an additional mechanism is used with the payment and authorisation URLs to enforce the data integrity of the payments and authorisations. It is recommended to enable it at all the times to maximise data protection and minimise GDPR exposure</td>
+  </tr>
 </table>
