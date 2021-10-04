@@ -523,7 +523,7 @@ These settings are not routinely changed from the default values, unless specifi
   </tr>
   <tr>
     <td>Suppress Notification for Payments</td>
-    <td>Introduced in release 2.16. And it is currently supported only with GoCardless Payments. If you have obtained <a href="https://asperato.github.io/userdocs/docs/suppressnotifications"> required approvals</a>, then if this setting is set to true the Payment releated notifications from PSP would be suppressed. This would allow you to send your custom notifications for Payment.</td>
+    <td>Introduced in release 2.16. And it is currently supported only with GoCardless Payments. If you have obtained <a href="https://asperato.github.io/userdocs/docs/suppressnotifications"> required approvals</a>, and if this setting is set to true, the Payment releated notifications from PSP would be suppressed. This would allow you to send your custom notifications for Payment.</td>
   </tr> 
   <tr>
     <td>Enable Pay/auth URL Data Integrity</td>
