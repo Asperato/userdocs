@@ -488,6 +488,10 @@ The following provides a description of the available Asperato ONE objects and t
     <td>Refund Stage Description</td>
     <td>A descriptive text showing the reason related to the current refund stage.  Might contain the reason for failure, for example.</td>
   </tr>
+  <tr>
+    <td>Raw Error Message from PSP</td>
+    <td>Error code and message received from PSP in case of failure. In case it does not match the sanitized error then please contact Asperato Support, so that it can be corrected.</td>
+  </tr>   
 </table>
 
 ## Asperato ONE settings
