@@ -645,7 +645,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Worldpay (Corporate)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">ECOM</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
@@ -655,7 +655,7 @@ Below table lists the PSPs supported by Asperato with the details of the feature
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">Worldpay (Corporate)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">MOTO</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-58xa"><span style="font-weight:bold;color:#F00;background-color:#FFF">N</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
