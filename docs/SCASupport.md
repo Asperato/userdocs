@@ -42,7 +42,7 @@ Create a new PSP connection from Asperato Setup with “Ayden SCA”
    + Client Key - Generate Client key as per the steps given [here](https://docs.adyen.com/development-resources/client-side-authentication/migrate-from-origin-key-to-client-key#switch-to-using-the-client-key)
    + URL Prefix - Enter as [A random string of hex-encoded bytes to make the hostname unpredictable]-[Company Name]. Refer Adyen documentation [here](https://docs.adyen.com/development-resources/live-endpoints) for more details.
 3. Upon save, if the connection is established successfully, you will see a green tick besides the connection just created.
-Refer [here](https://docs.adyen.com/development-resources/test-cards/test-card-numbers) for Adyen PSD2 testing guidance.
+Refer <a href="https://docs.adyen.com/development-resources/test-cards/test-card-numbers">here </a> for Adyen PSD2 testing guidance.
 
 ## Setting Up Braintree SCA Connection
 Create a new PSP connection from Asperato Setup with “Braintree SCA”
