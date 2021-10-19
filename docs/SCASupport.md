@@ -84,3 +84,18 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
    + Vendor name - Use same name as you have used for Sagepay (without SCA) connection.
 3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
 Refer [here](https://www.opayo.co.uk/support/12/36/test-card-details-for-your-test-transactions) for Sagepay PSD2 testing guidance.
+
+## Setting Up Worldpay SCA Connection
+Create a new PSP connection from Asperato Setup with “Worldpay SCA”
+1. Go to Asperato Setup page
+2. Click on "New PSP Connection". In the popup screen, select
+   + Currency as "British Pound"
+   + Mode as "ECOM"
+   + PSP as “Worldpay SCA”
+   + Description - Of your choice
+   + API Id (iss) - From Worldpay dashboard after changing to Test mode, go to Integration->3DS Flex
+   + Merchant Code - You will get it from Worldpay dashboard under Account-> Profile
+   + Password - Same as login password for Worldpay dashboard.
+   + Org Unit ID - From Worldpay dashboard after changing to Test mode you will get it under Integration->3DS Flex
+   + API key - From Worldpay dashboard after changing to Test mode you will get it under Integration->3DS Flex
+3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created. Refer <a href="https://developer.worldpay.com/docs/wpg/reference/testvalues#3d-secure-3ds-test-values">here</a> for Worldpay PSD2 testing guidance.
