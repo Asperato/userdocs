@@ -59,6 +59,20 @@ Create a new PSP connection from Asperato Setup with “Braintree SCA”
 3. Upon save, if the connection is established successfully, you will see a green tick besides the connection just created.
 Refer [here](https://developers.braintreepayments.com/guides/3d-secure/testing-go-live/php) for Braintree PSD2 testing guidance.
 
+## Setting Up Cybersource SCA Connection
+Create a new PSP connection from Asperato Setup with “Braintree SCA”
+1. Go to Asperato Setup page
+2. Click on "New PSP Connection". In the popup screen, select
+   + Currency
+   + Mode as "ECOM"
+   + PSP as “Cybersource SCA”
+   + Description - Of your choice
+   + Merchant Id - same as used for non-sca connection
+   + Security Key
+   + Org Id
+   + Click on "Save PSP Connection" button
+3. Upon save, if the connection is established successfully, you will see a green tick besides the connection just created.
+
 ## Setting Up Stripe SCA Connection
 To create a Stripe SCA connection in Asperato package, follow below steps
 1. Go to Asperato Setup page
