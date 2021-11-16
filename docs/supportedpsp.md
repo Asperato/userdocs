@@ -293,7 +293,17 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
-    <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless (GBP)</span></td>
+    <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">GoCardless ACH (USD)</span></td>
+    <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+  </tr>
+  <tr>
+    <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless Autogiro (SE)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Open Banking</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
@@ -333,18 +343,8 @@ Below table lists the PSPs supported by Asperato with the details of the feature
     <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
   </tr>
   <tr>
-    <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless SEPA (EUR)</span></td>
+    <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless Betalingsservice (DK)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
-    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
-    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
-  </tr>
-  <tr>
-    <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">GoCardless ACH (USD)</span></td>
-    <td class="tg-xdju"><span style="color:#274E13">eCheck</span></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
@@ -355,7 +355,17 @@ Below table lists the PSPs supported by Asperato with the details of the feature
   <tr>
     <td class="tg-y9n6"><span style="font-weight:bold;color:#000;background-color:#FFE599">GoCardless PAD (CAD)</span></td>
     <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
-   <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+    <td class="tg-oftd"><span style="background-color:#666">N/A</span></td>
+  </tr>
+  <tr>
+    <td class="tg-y9n6"><span style="font-weight:bold;background-color:#FFE599">GoCardless SEPA (EUR)</span></td>
+    <td class="tg-xdju"><span style="color:#274E13">Direct Debit</span></td>
+    <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
     <td class="tg-c3ow"><img src="https://img.icons8.com/color/48/000000/checked-checkbox.png" alt="Supported" width="25" height="25"/></td>
