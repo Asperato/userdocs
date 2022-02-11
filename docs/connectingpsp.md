@@ -8,7 +8,7 @@ Asperato ONE comes pre-configured with several different PSP connections so you 
 
 To test thoroughly therefore, you'll need to connect your own PSP account.
 
-**Please note that the steps detailed here are correct at the time of writing, but PSPs do change them from time to time, so they may not be up-to-date. If you notice any that aren't correct, please email support@asperato.com so we can get them updated.**
+**Please note that the steps detailed here are correct at the time of writing, but PSPs do change them from time to time, so they may not be up-to-date. If you notice any that aren't correct, please email support@asperato.com so that we can get them updated.**
 
 ## Connecting your own PSP account
 
