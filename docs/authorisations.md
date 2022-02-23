@@ -48,7 +48,7 @@ The following statuses are available on the authorisation object:
 <td>The authorisation has not yet been processed through a payment service provider.</td>
 </tr><tr>
 <th>Pending</th>
-<td>This status is used for direct debits, and indicates the authorisation has been processed but is not yet in force. Direct debit authorisations have a lead time of a few days before they become active - see <a href="https://support.gocardless.com/hc/en-gb/articles/360000593445-Timing-cycles" target="_blank">Timing cycles</a> for details. This status isn’t relevant for card authorisations, as they become active (or fail) instantly.</td>
+<td>This status is used for direct debits, and indicates the authorisation has been processed but is not yet in force. Direct debit authorisations have a lead time of a few days before they become active - see <a href="https://gocardless.com/direct-debit/timings/" target="_blank">Timing cycles</a> for details. This status isn’t relevant for card authorisations, as they become active (or fail) instantly.</td>
 </tr><tr>
 <th>In force</th>
 <td>The authorisation has been confirmed, is valid, and can be used to authorise a payment.</td>
