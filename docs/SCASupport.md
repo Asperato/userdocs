@@ -93,7 +93,7 @@ Create a new PSP connection from Asperato Setup with “Sagepay SCA”
 2. Click on "New PSP Connection". In the popup screen, select
    + Currency, i.e. GBP
    + Mode as "ECOM" or "MOTO"
-   + PSP as “Sagepay SCA”
+   + PSP as “Sagepay Beta Sca”
    + Description - Of your choice
    + Vendor name - Use same name as you have used for Sagepay (without SCA) connection.
 3. Upon save, if connection is established successfully, you will see a green tick besides the connection just created.
