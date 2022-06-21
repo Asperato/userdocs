@@ -153,11 +153,11 @@ To Cancel a Payment take fllowing steps
    1. Go to Payment that needs to be cancelled
    2. Select Quick Action “Cancel Payment”
    
-   ![Cancel Payment Quick Action Button](/userdocs/img/payments/Cancel_Payment_Option.png)
+   ![Cancel Payment Quick Action Button](/userdocs/img/payments/Cancel_Payment_Option.PNG)
    
    3. You will see a confirmation screen. Upon confirming the Payment will be cancelled at both SF and GC side and the status of payment record would be updated to "Cancelled" as well.
    
-   ![Cancellation confirmation screen](/userdocs/img/payments/Confirmation_screen_cancel_payment.png)
+   ![Cancellation confirmation screen](/userdocs/img/payments/Confirmation_screen_cancel_payment.PNG)
 
 Note that, Asperato status “Submitted for Collection” corresponds to GC status of ”Pending” and “Submitted”. When a Payment with status as “Submitted for Collection” is Cancelled, then it actually gets cancelled if the status on GC is still "Pending". If the status on GC has been updated to “Submitted” then the payment does not get cancelled and it will be collected from the customer. In this case, when cancellation does not happen, you may try the refund route.
 
