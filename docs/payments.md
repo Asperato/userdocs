@@ -21,7 +21,10 @@ Ad hoc payments can easily be taken where a related authorisation record is alre
 1. Navigate to the authorisation record for which you wish to set up a payment. Under the payment related list for the authorisation, select `New`:
  
 ![New payment from auth](/userdocs/img/payments/payment_related_auth.png)
- 
+V2:
+![New payment from auth](/userdocs/webstie/static/img/payments/payment_related_auth.png)
+
+
 Note that the authorisation field will be pre-populated with the required authorisation record.
 
 2. You can then Process Payment in usual way as mentioned in [Collecting one-off payments](#collecting-one-off-payments)
