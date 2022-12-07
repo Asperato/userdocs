@@ -95,7 +95,7 @@ If you set up a  mandate or attempt to process a payment there are certain delay
 For example the time it takes between setting up a mandate and confirming a mandate in the UK is around 3 days,  a long time to wait if you're testing.  The way to get around this is to use what are called Scenario Simulators offered by GoCardless.
  
 Given the nature of the Asperato integration we suggest using the “Name triggered scenarios”, details of which can be found here:
-https://support.gocardless.com/hc/en-gb/articles/360000984005-Scenario-simulators
+https://developer.gocardless.com/developer-tools/scenario-simulators
  
 For full details of different timing cycles please ask your Direct Debit provider: here we give a link to the BACS UK timings: https://support.gocardless.com/hc/en-gb/articles/210535689-Bacs-UK-Payment-Timings
  
