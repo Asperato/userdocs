@@ -75,7 +75,7 @@ class HomeSplash extends React.Component {
             The documentation here will walk you through installing, setting up, using and customising the package. If you have any questions not covered here, please email <a href="mailto:support@asperato.com">support@asperato.com</a> and we'll do our best to help.
           </p>
           <PromoSection>
-            <Button href={docUrl('overview.html')}>Read the docs</Button>
+            <Button target="_blank" href="https://docs.unaric.com/payments">Read the docs</Button>
             <Button target="_blank" href="https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EcrOnUAJ">Try it now</Button>
           </PromoSection>
         </div>
